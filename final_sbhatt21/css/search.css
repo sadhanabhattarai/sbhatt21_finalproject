@@ -1,0 +1,48 @@
+#celltable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#celltable td, #celltable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#celltable tr:nth-child(even){background-color: #f2f2f2;}
+
+#celltable tr:hover {background-color: #ddd;} 
+
+#celltable td:hover {
+    cursor: pointer;
+}
+
+#celltable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#celltable_lin {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#celltable_lin td, #celltable_lin th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#celltable_lin tr:nth-child(even){background-color: #f2f2f2;}
+
+#celltable_lin tr:hover {background-color: #ddd;}
+
+#celltable_lin th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
